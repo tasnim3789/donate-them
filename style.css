@@ -1,0 +1,117 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+section{
+    height: 100%;
+}
+.top-banner {
+    background-blend-mode: darken;
+    background: #0000008a;
+    background-image: url(images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 370px;
+    padding: 10%;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding: 4%;
+    padding-bottom: 0%;
+}
+
+p {
+    color: rgba(156, 153, 153, 0.993);
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.donate-button {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 400;
+    text-align: center;
+    background-image: linear-gradient(rgb(181, 92, 240), rgb(38, 5, 172));
+    padding: 10px 40px;
+    border-radius: 6px;
+
+}
+#center {
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 43%;
+}
+.sec-page{
+    padding-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+#item-border{
+
+    border: 4px solid rgb(107, 14, 161);
+    background-color: #cd9dec;
+    color:rgb(107, 14, 161);
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+
+}
+
+#sec-flex>div {
+    background-color: #f3f3f3;
+    color: rgb(85, 81, 81);
+    border-radius: 5px;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 35px;
+    padding: 2%;
+}
+input {
+    padding-top: 5%;
+    font-size: 20px;
+    width: 100%;
+    color: rgb(107, 14, 161);
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid silver;
+    background: transparent;
+
+}
+#center2 {
+    margin: 0;
+    position: absolute;
+    top: 187%;
+    left: 43%;
+}
+.third-page{
+    padding-top: 10%;
+}
+
+
+
+footer{
+    font-family: 'Lobster', cursive;
+
+}
+h3{
+    text-align: center;
+width: 100%;
+size: 50px;
+}
