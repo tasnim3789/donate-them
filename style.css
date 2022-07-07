@@ -1,10 +1,12 @@
 body {
     font-family: 'Poppins', sans-serif;
-    
+
 }
-section{
+
+section {
     height: 100%;
 }
+
 .top-banner {
     background-blend-mode: darken;
     background: #0000008a;
@@ -47,24 +49,28 @@ p {
     border-radius: 6px;
 
 }
+
 #center {
     margin: 0;
     position: absolute;
     top: 65%;
     left: 43%;
 }
-.sec-page{
+
+.sec-page {
     padding-top: 4%;
     padding-left: 10%;
     padding-right: 10%;
 
 }
-#item-border{
 
+#item-border {
     border: 4px solid rgb(107, 14, 161);
-    background-color: #cd9dec;
-    color:rgb(107, 14, 161);
+    background-color: #c7b3d3;
+    background: #151533;
+    color: rgb(125, 24, 184);
 }
+
 .flex-container {
     display: flex;
     justify-content: center;
@@ -83,35 +89,119 @@ p {
     font-size: 35px;
     padding: 2%;
 }
+
 input {
     padding-top: 5%;
     font-size: 20px;
     width: 100%;
-    color: rgb(107, 14, 161);
+
     text-align: center;
     border: none;
     border-bottom: 2px solid silver;
     background: transparent;
 
 }
+
 #center2 {
     margin: 0;
     position: absolute;
-    top: 187%;
+    top: 185%;
     left: 43%;
 }
-.third-page{
-    padding-top: 10%;
+
+.third-page {
+    padding-top: 12%;
+    padding-left: 8%;
+    padding-right: 8%;
 }
 
 
+.thirdflex p{
+    padding-left: 3px;
+    text-align: left;
+    padding-right: 2px;
+}
+.thirdflex img{
+    padding: 2%;
+    width: 55px;
+    height: 55px;
+}
+.thirdflex .firstblg{
+    margin-left: 5%;
+    padding: 2%;
+    border-radius: 5px;
+    background-color: #e0e0ff;
 
-footer{
-    font-family: 'Lobster', cursive;
+}.thirdflex .secblg{
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 2%;
+    background-color: #f7cef0;
+    border-radius: 5px;
+}
+.thirdflex .thirdblg{
+    margin-right: 5%;
+    padding: 2%;
+    background-color: #c8f7ff;
+    border-radius: 5px;
+}
+
+.contact p{
+
+    padding-left: 17%;
+    padding-right: 10%;
+}
+
+.mail-submit{
+    height:150px ;
+    align-items : center;
+    background-color: rgb(220, 223, 245);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    
+ 
+}
+.mail-submit .mail{
+    border: none;
+    text-align:left ;
+    background-color:rgb(255, 255, 255);
+    width: 400px;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 
 }
-h3{
+
+.mail-submit .sbutton{
+    padding: 15px 32px;
     text-align: center;
-width: 100%;
-size: 50px;
+    font-size: 13px;
+    text-decoration: none;
+    color: aliceblue;
+    background-image: linear-gradient(rgb(181, 92, 240), rgb(38, 5, 172));
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+
+footer {
+    background-color:  #131220;
+    text-align: center;
+    margin-top: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer h3 {    
+    font-family: 'Lobster', cursive;
+    color: rgb(211, 40, 226);
+    font-size: 35px;
+}
+
+footer p {
+    color: white;
+    font-size: 15px;
 }
